@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The android:opacity=”opaque” line — this is critical in preventing a flash of black as your theme transitions. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+
+    <!-- The background color, preferably the same as your normal theme -->
+
+
+    <!-- Your product logo - 144dp color version of your app icon -->
+    <item >
+
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="512"
+            android:viewportHeight="512">
+            <path
+                android:fillColor="#FF000000"
+                android:pathData="M256,0C114.837,0 0,114.837 0,256s114.837,256 256,256s256,-114.837 256,-256S397.163,0 256,0z"/>
+        </vector>
+    </item>
+
+</layer-list>
